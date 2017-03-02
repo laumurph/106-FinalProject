@@ -1,2 +1,10 @@
 # 106-FinalProject
-A project originally developed in April of 2015 for my Introductory coding class, this functions as a Family Feud-esque game, guessing the common tags associated with your choice in tag. Uses an outdated version of Instagram's API, so it's no longer able to run unless more access than sandbox mode allows is obtained. 
+A project originally developed in April of 2015 for my Introductory coding class, this functions as a Family Feud-esque game, guessing the common tags associated with your choice in tag. It uses an outdated version of Instagram's API, so it's no longer able to run unless more access than sandbox mode allows is obtained. 
+
+My program, final_project.py, is a program that uses the Flickr and Instagram APIs and retrieves tags. The user is asked to input a tag to search through, for example puppies, and both Flickr and Instagram search for the most recent photos or posts with the tag. These tags are put into dictionaries, one for each API, and then sorted in the most popular order, with puppies being the top tag in this instance, since it is in every post. 
+
+Then comes the Family Feud aspect. The user is initialy asked to pick how many tags they would like to play with, for example the top four. The user is shown Instagram’s top four related tags for that category so that they understand how the tagging system might work, and then is prompted to input a guess. If they guess correctly, they will be told that they were correct, shown how many other people tagged with that as well, and then prompted for another guess. If they guess something that they have already tried, they are told so, and asked to try another input. If it is wrong, then the user is informed, and they are shown a capital X as well as an other X's they may have gained so that they know how many times they have guessed wrong. If they guess them all correctly, then they are congratulated and shown the top results all in one place. If they don’t guess all of them correctly, they are told ‘sorry, game over’ and shown the top results as well.
+
+For installation, you'll need to have the requests, json, and requests_oauthlib libraries which can be downloaded using pip and the file test106.py which comes from my class instead of using the unittest library. Please note that it may take a bit of time in order to retrieve the information.
+
+
