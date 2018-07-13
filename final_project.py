@@ -9,12 +9,12 @@ import requests_oauthlib
 import test106 as test
 
 #Instagram information necessary to run API
-access_token = "1834570599.1fb234f.ae127d266d114277b8340c3a26eac2b5"
-client_id = 'a84c4e894993489f8d7edcf30fd6e52a'
-client_secret = 'a58e94df9347ec19945a4c03cd5d020'
+access_token = "please insert your token here"
+client_id = "please insert your client id here"
+client_secret = "please insert your client secret here"
  
 #flickr information necessary to run API  
-flickr_key = "01fab8a5716b2b52e211eee28314cbb6"
+flickr_key = "please insert your key here"
 
 #class Game_play is now made here
 class Game_play():
